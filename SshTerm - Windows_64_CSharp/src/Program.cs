@@ -1,7 +1,7 @@
 using System;
 using System.Windows.Forms;
 
-namespace MultiTabbedSshClient;
+namespace SshTerm;
 
 internal static class Program
 {

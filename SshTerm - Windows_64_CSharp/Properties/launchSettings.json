@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "SshTerm": {
+      "commandName": "Project"
+    }
+  }
+}

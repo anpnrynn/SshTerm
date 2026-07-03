@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace MultiTabbedSshClient;
+namespace SshTerm;
 
 public enum AuthMode { Password, PrivateKey }
 public enum NewLineMode { CR, LF, CRLF }

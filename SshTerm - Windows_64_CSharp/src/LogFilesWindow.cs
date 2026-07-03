@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace MultiTabbedSshClient;
+namespace SshTerm;
 
 public sealed class LogFilesForm : Form
 {

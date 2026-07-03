@@ -4,7 +4,7 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 
-namespace MultiTabbedSshClient;
+namespace SshTerm;
 
 public sealed class TerminalSurface : Control
 {

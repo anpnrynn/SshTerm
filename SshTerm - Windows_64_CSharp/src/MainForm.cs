@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace MultiTabbedSshClient;
+namespace SshTerm;
 
 public sealed class MainForm : Form
 {
@@ -23,7 +23,7 @@ public sealed class MainForm : Form
     public MainForm()
     {
         _settings = AppSettings.Load();
-        Text = "MultiTabbed SSH Client - SSH only";
+        Text = "SshTerm - Multi Tabbed SSH client";
         Width = 1100; Height = 760;
         Icon = SystemIcons.Application;
         MainMenuStrip = BuildMenu();
@@ -31,7 +31,7 @@ public sealed class MainForm : Form
         Controls.Add(MainMenuStrip);
         _notify.Icon = SystemIcons.Application;
         _notify.Visible = true;
-        _notify.Text = "MultiTabbed SSH Client";
+        _notify.Text = "SshTerm - Multi Tabbed SSH Client";
         FormClosing += (_, _) => { foreach (var t in AllTabs()) t.Disconnect(); if (_settings.DeleteSessionLogsOnExit) DeleteSessionLogFiles(); _notify.Dispose(); _settings.Save(); };
     }
 
