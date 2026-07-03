@@ -1,4 +1,4 @@
-# MultiTabbed SSH Client for Windows - WinForms / C#
+# SshTerm -Multi Tabbed SSH Client for Windows - WinForms / C#
 
 A Tera Term inspired SSH-only terminal client using C# WinForms and SSH.NET.
 
