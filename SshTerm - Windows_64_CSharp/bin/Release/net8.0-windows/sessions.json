@@ -1,0 +1,55 @@
+{
+  "FontFamily": "Consolas",
+  "FontSize": 10,
+  "ForeColor": "#E6E6E6",
+  "BackColor": "#101010",
+  "KeyMappings": {
+    "Backspace": "\\x7f",
+    "Delete": "\\x1b[3~",
+    "PageUp": "\\x1b[5~",
+    "PageDown": "\\x1b[6~",
+    "Home": "\\x1b[H",
+    "End": "\\x1b[F",
+    "Insert": "\\x1b[2~"
+  },
+  "Sessions": [
+    {
+      "LastUsedUtc": "2026-06-08T19:20:12.8342645Z",
+      "Name": "uKDE VM",
+      "Host": "192.168.56.101",
+      "Port": 22,
+      "UserName": "anoop",
+      "AuthMode": 0,
+      "PrivateKeyPath": "",
+      "TerminalType": "xterm-256color",
+      "Columns": 120,
+      "Rows": 40,
+      "LocalEcho": false,
+      "SendNewLine": 0,
+      "BackspaceMode": 0,
+      "KeepAliveSeconds": 30,
+      "LogWithTimestamps": false
+    }
+  ],
+  "RecentSessions": [
+    {
+      "LastUsedUtc": "2026-07-03T00:01:37.6250102Z",
+      "Name": "uKDE VM",
+      "Host": "192.168.56.101",
+      "Port": 22,
+      "UserName": "anoop",
+      "AuthMode": 0,
+      "PrivateKeyPath": "",
+      "TerminalType": "xterm-256color",
+      "Columns": 120,
+      "Rows": 40,
+      "LocalEcho": false,
+      "SendNewLine": 0,
+      "BackspaceMode": 0,
+      "KeepAliveSeconds": 30,
+      "LogWithTimestamps": false
+    }
+  ],
+  "SessionLogDirectory": "C:\\SshSessionsData",
+  "DeleteSessionLogsOnExit": true
+}
