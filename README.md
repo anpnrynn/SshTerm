@@ -5,6 +5,10 @@ A Tera Term inspired SSH-only terminal client using C# WinForms and SSH.NET.
 # LICENSE
 Product released as "Public Domain" software.
 
+# Information   
+Designed by Anoop Kumar Narayanan     
+Coded by ChatGPT 5.5    
+
 ## Features
 
 - Multi-tab SSH sessions
